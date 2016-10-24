@@ -21,24 +21,24 @@
 <h1 class="text-center">DaiStorage Demo</h1>	
 
 <h2>Form 1</h2>
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form" id = "form1">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" name="e-mail" class="form-control" id="inputEmail3" placeholder="Email">
+      <input type="email" name="e_mail" class="form-control" id="inputEmail3" placeholder="Email">
     </div>
   </div>
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input type="password" name="pass_word" class="form-control" id="inputPassword3" placeholder="Password">
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <div class="checkbox">
         <label>
-          <input type="checkbox"> Remember me
+          <input type="checkbox" name="check_box" value="1"> Remember me
         </label>
       </div>
     </div>
@@ -51,40 +51,225 @@
 </form>
 
 <h2>Form 2</h2>
-<form class="form-horizontal" role="form">
+<form class="form-horizontal" role="form" id="form2">
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox1" value="option1"> daijiale
+	  <input type="checkbox" name="inlineCheckOptions1" id="inlineCheckbox1" value="option11"> daijiale
 	</label>
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+	  <input type="checkbox" name="inlineCheckOptions2" id="inlineCheckbox2" value="option12"> 2
 	</label>
 	<label class="checkbox-inline">
-	  <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+	  <input type="checkbox" name="inlineCheckOptions3" id="inlineCheckbox3" value="option13"> 3
 	</label>
 
 	<label class="radio-inline">
-	  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+	  <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option21"> 1
 	</label>
 	<label class="radio-inline">
-	  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+	  <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option22"> 2
 	</label>
 	<label class="radio-inline">
-	  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+	  <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option23"> 3
 	</label>
 
 	<div class="form-group">
     	<div class="col-sm-offset-2 col-sm-10">
-      		<button type="button" class="btn btn-default">postDataToJS</button>
+      		<button type="button" id="button2" class="btn btn-default">postDataToJS</button>
     	</div>
   	</div>
 </form>
 
+<h2>Form 3</h2>
+<form class="form-horizontal" role="form" id="form3">
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions1" id="inlineCheckbox1" value="option11"> daijiale
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions2" id="inlineCheckbox2" value="option12"> 2
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions3" id="inlineCheckbox3" value="option13"> 3
+  </label>
+
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option21"> 1
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option22"> 2
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option23"> 3
+  </label>
+
+  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" id="button3" class="btn btn-default">postDataToJS</button>
+      </div>
+    </div>
+</form>
+
+<h2>Form 4</h2>
+<form class="form-horizontal" role="form" id="form4">
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions1" id="inlineCheckbox1" value="option11"> daijiale
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions2" id="inlineCheckbox2" value="option12"> 2
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions3" id="inlineCheckbox3" value="option13"> 3
+  </label>
+
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option21"> 1
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option22"> 2
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option23"> 3
+  </label>
+
+  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" id="button4" class="btn btn-default">postDataToJS</button>
+      </div>
+    </div>
+</form>
+
+<h2>Form 5</h2>
+<form class="form-horizontal" role="form" id="form5">
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions1" id="inlineCheckbox1" value="option11"> daijiale
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions2" id="inlineCheckbox2" value="option12"> 2
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions3" id="inlineCheckbox3" value="option13"> 3
+  </label>
+
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option21"> 1
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option22"> 2
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option23"> 3
+  </label>
+
+  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" id="button5" class="btn btn-default">postDataToJS</button>
+      </div>
+    </div>
+</form>
+
+<h2>Form 6</h2>
+<form class="form-horizontal" role="form" id="form6">
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions1" id="inlineCheckbox1" value="option11"> daijiale
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions2" id="inlineCheckbox2" value="option12"> 2
+  </label>
+  <label class="checkbox-inline">
+    <input type="checkbox" name="inlineCheckOptions3" id="inlineCheckbox3" value="option13"> 3
+  </label>
+
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option21"> 1
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option22"> 2
+  </label>
+  <label class="radio-inline">
+    <input type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option23"> 3
+  </label>
+
+  <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" id="button6" class="btn btn-default">postDataToJS</button>
+      </div>
+    </div>
+</form>
+
 <script type="text/javascript">
+
+  //获取表单中单个Dom元素的值
 	$(function(){
 		$("#button1").click(function(){
-			alert($("input[name='e-mail']").val());
+			alert($("input[name='e_mail']").val()+' | '+$("input[name='pass_word']").val());
 		});
 	});
+  
+  //获取整个表单Dom元素的值，并通过serialize()拼接成字符串
+  $(function(){
+   $("#button2").click(function(){
+     alert($("#form2").serialize());
+    });
+  }); 
+
+
+  //获取整个表单Dom元素的值，并通过serializeArray()转换成json数组
+  $(function(){
+   $("#button3").click(function(){
+      var jsonuserinfo = $('#form3').serializeArray();  
+      alert(JSON.stringify(jsonuserinfo)); 
+    });
+  }); 
+
+  //获取整个表单Dom元素的值，并通过serializeObject()转成json对象
+  $(function(){
+   $("#button4").click(function(){
+      var jsonuserinfo = $('#form4').serializeObject();  
+      alert(JSON.stringify(jsonuserinfo));  
+    });
+  }); 
+
+  //获取整个表单Dom元素的值，并通过serializeArray()转换成json数组，再将json数组解析成kv,加入storage
+  $(function(){
+   $("#button5").click(function(){
+      var objectData = $('#form5').serializeArray();  
+      for(var i=0,l=objectData.length;i<l;i++){
+          for(var key in objectData[i]){
+              console.log(key+':'+objectData[i][key]);
+          }
+       }
+    });
+  }); 
+
+   //获取整个表单Dom元素的值，并通过serializeArray()转换成json数组，再将json对象解析成kv,加入storage
+  $(function(){
+   $("#button6").click(function(){
+      var objectData = $('#form6').serializeObject();  
+      for(var key in objectData){
+          var str = key+':'+objectData[key];
+          console.log(str);
+      }
+    });
+  }); 
+
+  
+  //.fn 加入自定方法serializeObject()
+  $.fn.serializeObject = function()    
+  {    
+    var o = {};    
+    var a = this.serializeArray();    
+    $.each(a, function() {    
+       if (o[this.name]) {    
+           if (!o[this.name].push) {    
+               o[this.name] = [o[this.name]];    
+           }    
+           o[this.name].push(this.value || '');    
+       } else {    
+           o[this.name] = this.value || '';    
+       }    
+    });    
+    return o;    
+  };  
+
 </script>
 
 
